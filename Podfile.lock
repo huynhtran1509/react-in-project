@@ -1,20 +1,30 @@
 PODS:
-  - React (0.11.0):
-    - React/Core (= 0.11.0)
-  - React/Core (0.11.0)
-  - React/RCTText (0.11.0):
+  - React (0.37.0):
+    - React/Core (= 0.37.0)
+  - React/Core (0.37.0)
+  - React/RCTText (0.37.0):
     - React/Core
-  - React/RCTWebSocket (0.11.0):
+  - React/RCTWebSocket (0.37.0):
     - React/Core
 
 DEPENDENCIES:
-  - React
-  - React/RCTText
-  - React/RCTWebSocket
+  - React (from `https://github.com/facebook/react-native.git`, tag `v0.37.0`)
+  - React/RCTText (from `https://github.com/facebook/react-native.git`, tag `v0.37.0`)
+  - React/RCTWebSocket (from `https://github.com/facebook/react-native.git`, tag `v0.37.0`)
+
+EXTERNAL SOURCES:
+  React:
+    :git: https://github.com/facebook/react-native.git
+    :tag: v0.37.0
+
+CHECKOUT OPTIONS:
+  React:
+    :git: https://github.com/facebook/react-native.git
+    :tag: v0.37.0
 
 SPEC CHECKSUMS:
-  React: ab1a2e21deb34965c38328d5ec40cc7d12c6050a
+  React: aa8f585cbea131b6781c6ad7a1aee436e1ac5ddf
 
-PODFILE CHECKSUM: 8bbb69a186798feffd1b90b356b646fc9c3edcb3
+PODFILE CHECKSUM: 3eefd79f3b734e327cd72fb1033d2a61da0ddb4e
 
-COCOAPODS: 1.1.1
+COCOAPODS: 1.2.0.rc.1

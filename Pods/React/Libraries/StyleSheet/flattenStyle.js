@@ -11,15 +11,14 @@
  */
 'use strict';
 
-var StyleSheetRegistry = require('StyleSheetRegistry');
-var invariant = require('invariant');
+var ReactNativePropRegistry = require('react/lib/ReactNativePropRegistry');
+var invariant = require('fbjs/lib/invariant');
 
-type Atom = number | bool | Object | Array<?Atom>
-type StyleObj = Atom | Array<?StyleObj>
+import type { StyleObj } from 'StyleSheetTypes';
 
 function getStyle(style) {
   if (typeof style === 'number') {
-    return StyleSheetRegistry.getStyleByID(style);
+    return ReactNativePropRegistry.getByID(style);
   }
   return style;
 }
@@ -35,15 +34,11 @@ function flattenStyle(style: ?StyleObj): ?Object {
   }
 
   var result = {};
-  for (var i = 0; i < style.length; ++i) {
+  for (var i = 0, styleLength = style.length; i < styleLength; ++i) {
     var computedStyle = flattenStyle(style[i]);
     if (computedStyle) {
       for (var key in computedStyle) {
         result[key] = computedStyle[key];
-
-        if (__DEV__) {
-          var value = computedStyle[key];
-        }
       }
     }
   }

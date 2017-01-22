@@ -7,7 +7,7 @@
 //
 
 #import "ReactView.h"
-#import <React/Base/RCTRootView.h>
+#import <React/RCTRootView.h>
 
 @interface ReactView()
 
