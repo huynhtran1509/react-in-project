@@ -20,8 +20,7 @@
 - (void)awakeFromNib {
     [super awakeFromNib];
     
-    NSString *urlString = @"http://localhost:8081/index.ios.bundle";
-    NSURL *jsCodeLocation = [NSURL URLWithString:urlString];
+    NSURL *jsCodeLocation = [NSURL URLWithString:@"http://localhost:8081/index.ios.bundle?platform=ios"];
     RCTRootView *rootView = [[RCTRootView alloc] initWithBundleURL:jsCodeLocation
                                                         moduleName:@"SimpleApp"
                                                  initialProperties:nil

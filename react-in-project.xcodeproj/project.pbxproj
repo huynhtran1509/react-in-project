@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2403973EE7702D362CC982DE /* Pods_react_in_project.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C52FB71F347286DB791908D5 /* Pods_react_in_project.framework */; };
-		CD801893F4764F9448FFA8F6 /* Pods_react_in_projectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA0CED4F703A1831DF41D0C6 /* Pods_react_in_projectTests.framework */; };
+		9DC9319B2AC4528A45537739 /* Pods_react_in_project.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C449987F60C4A17D1FEFB78 /* Pods_react_in_project.framework */; };
 		D8D18C561E308BE900C80CFC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D18C551E308BE900C80CFC /* main.m */; };
 		D8D18C591E308BE900C80CFC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D18C581E308BE900C80CFC /* AppDelegate.m */; };
 		D8D18C5F1E308BE900C80CFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8D18C5D1E308BE900C80CFC /* Main.storyboard */; };
@@ -19,7 +18,9 @@
 		D8D18C8B1E308FD000C80CFC /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D18C8A1E308FD000C80CFC /* RootViewController.m */; };
 		D8D18C8E1E308FFE00C80CFC /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D18C8D1E308FFE00C80CFC /* SecondViewController.m */; };
 		D8D18C911E30909800C80CFC /* ReactView.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D18C901E30909800C80CFC /* ReactView.m */; };
-		E398D7022382620C24B2E7E4 /* Pods_react_in_projectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DED9C2E27536C90985ECFED /* Pods_react_in_projectUITests.framework */; };
+		D8D18D231E34ADC100C80CFC /* Pods_react_in_project.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8D18D221E34ADC100C80CFC /* Pods_react_in_project.framework */; };
+		F496EC15E264CBD5C5EED7B3 /* Pods_react_in_projectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE6A645BF0486F526EFF995D /* Pods_react_in_projectTests.framework */; };
+		FDBEAE8DC04785DAC8534BFF /* Pods_react_in_projectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EED8F0762800D64A3D827C09 /* Pods_react_in_projectUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,10 +43,10 @@
 /* Begin PBXFileReference section */
 		0666CF8669932B43AE13AEDD /* Pods-react-in-projectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-react-in-projectUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-react-in-projectUITests/Pods-react-in-projectUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		08D443E8D4FA7C3DB52DCFC9 /* Pods-react-in-project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-react-in-project.release.xcconfig"; path = "Pods/Target Support Files/Pods-react-in-project/Pods-react-in-project.release.xcconfig"; sourceTree = "<group>"; };
+		0C449987F60C4A17D1FEFB78 /* Pods_react_in_project.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_react_in_project.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		347E0C65D59B3623CE5E810F /* Pods-react-in-projectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-react-in-projectTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-react-in-projectTests/Pods-react-in-projectTests.debug.xcconfig"; sourceTree = "<group>"; };
-		7DED9C2E27536C90985ECFED /* Pods_react_in_projectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_react_in_projectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		950F9CB9F4B475D212F4B98C /* Pods-react-in-projectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-react-in-projectTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-react-in-projectTests/Pods-react-in-projectTests.release.xcconfig"; sourceTree = "<group>"; };
-		C52FB71F347286DB791908D5 /* Pods_react_in_project.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_react_in_project.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE6A645BF0486F526EFF995D /* Pods_react_in_projectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_react_in_projectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C95D575EEFF918C93538373E /* Pods-react-in-projectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-react-in-projectUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-react-in-projectUITests/Pods-react-in-projectUITests.release.xcconfig"; sourceTree = "<group>"; };
 		D8D18C511E308BE900C80CFC /* react-in-project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "react-in-project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8D18C551E308BE900C80CFC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -67,8 +68,9 @@
 		D8D18C8D1E308FFE00C80CFC /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		D8D18C8F1E30909800C80CFC /* ReactView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReactView.h; sourceTree = "<group>"; };
 		D8D18C901E30909800C80CFC /* ReactView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReactView.m; sourceTree = "<group>"; };
+		D8D18D221E34ADC100C80CFC /* Pods_react_in_project.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_react_in_project.framework; path = "../../../Library/Developer/Xcode/DerivedData/react-in-project-hgpubhmhfphojfeirurcbmlvivxw/Build/Products/Debug-iphonesimulator/Pods_react_in_project.framework"; sourceTree = "<group>"; };
 		E74A64F24451B3198BFAA3CC /* Pods-react-in-project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-react-in-project.debug.xcconfig"; path = "Pods/Target Support Files/Pods-react-in-project/Pods-react-in-project.debug.xcconfig"; sourceTree = "<group>"; };
-		EA0CED4F703A1831DF41D0C6 /* Pods_react_in_projectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_react_in_projectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EED8F0762800D64A3D827C09 /* Pods_react_in_projectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_react_in_projectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +78,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2403973EE7702D362CC982DE /* Pods_react_in_project.framework in Frameworks */,
+				D8D18D231E34ADC100C80CFC /* Pods_react_in_project.framework in Frameworks */,
+				9DC9319B2AC4528A45537739 /* Pods_react_in_project.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,7 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD801893F4764F9448FFA8F6 /* Pods_react_in_projectTests.framework in Frameworks */,
+				F496EC15E264CBD5C5EED7B3 /* Pods_react_in_projectTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,7 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E398D7022382620C24B2E7E4 /* Pods_react_in_projectUITests.framework in Frameworks */,
+				FDBEAE8DC04785DAC8534BFF /* Pods_react_in_projectUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,9 +118,10 @@
 		2B3073850DB4B38CCF359ECE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C52FB71F347286DB791908D5 /* Pods_react_in_project.framework */,
-				EA0CED4F703A1831DF41D0C6 /* Pods_react_in_projectTests.framework */,
-				7DED9C2E27536C90985ECFED /* Pods_react_in_projectUITests.framework */,
+				D8D18D221E34ADC100C80CFC /* Pods_react_in_project.framework */,
+				0C449987F60C4A17D1FEFB78 /* Pods_react_in_project.framework */,
+				BE6A645BF0486F526EFF995D /* Pods_react_in_projectTests.framework */,
+				EED8F0762800D64A3D827C09 /* Pods_react_in_projectUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

@@ -1,20 +1,21 @@
 'use strict';
 
-var React = require('react-native');
-var {
+import React, { Component } from 'react';
+import {
+  AppRegistry,
   Text,
+  StyleSheet,
   View,
-  Image,
-} = React;
+} from 'react-native';
 
-var styles = React.StyleSheet.create({
+var styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: 'red'
   }
 });
 
-class SimpleApp extends React.Component {
+class SimpleApp extends Component {
   render() {
     return (
       <View style={styles.container}>
@@ -24,4 +25,4 @@ class SimpleApp extends React.Component {
   }
 }
 
-React.AppRegistry.registerComponent('SimpleApp', () => SimpleApp);
+AppRegistry.registerComponent('SimpleApp', () => SimpleApp);
